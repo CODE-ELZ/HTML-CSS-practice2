@@ -37,7 +37,7 @@ setInterval(function(){
     if(countNum > 6){
         countNum = 1;
     }
-},2000);
+},4500);
     
 var sound = ["sound/lion.mp3","sound/glass.mp3"];
 
