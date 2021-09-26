@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Robote', sans-serif;
+}
+body{
+    background-color: #E1E5EA;
+}
+hr{
+    background: none;
+    border-style: none;
+    border-top: dotted;
+    border-color: #3e0458;
+    border-width: 20px;
+    width: 15%;
+    margin: auto;
+}
+
+                 /* section 1 */
+.header {
+    background-image: url(img/slide-1.jpg);
+    background-size: cover;
+    height: 70vh;
+}
+
+.header .bg-op {
+    background: #000000ad;
+    height: 100%;
+}
+
+/* flex is like inline-block but can control everything from the parent div using justify-content not position*/
+                 /* navbar */
+.header .bg-op .navbar {
+    display: flex;
+    color: white;
+    font-size: 32px;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.logo {
+    width: 20%;
+}
+
+.menu {
+    width: 20%;
+}
+/* .fa-bars{
+    color: rgb(0, 60, 255);
+} */
+.fa-bars:hover{
+    color: rgb(0, 60, 255);
+    cursor: pointer;
+}
+
+/* .header .bg-op .navbar .logo span {
+    color: orangered;
+} */
+.header .bg-op .navbar .logo span {
+    color: rgb(0, 60, 255);
+}
+
+                         /* tital */
+.design h1 {
+    text-transform: uppercase;
+}
+
+.design .btn .bts {
+    text-transform: capitalize;
+    width: 40%;
+    height: 7vh;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    border: 1px #fff solid;
+}
+
+.design .btn .bts:hover {
+    background: rgb(0, 153, 255);
+}
+
+.design .btn .btx {
+    text-transform: capitalize;
+    width: 40%;
+    height: 7vh;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    border: 1px #fff solid;
+    background: rgb(0, 153, 255);
+}
+
+.design {
+    display: flex;
+    height: 85%;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+    line-height: 1.6;
+}
+
+.design h1 {
+    font-weight: bold;
+}
+
+.design span {
+    color: rgb(0, 153, 255);
+}
+
+.btn {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+                 /* section 2 */
+/* Features Section */
+
+#features {
+    position: relative;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+  }
+  
+  .feature-box {
+    padding: 2%;
+    text-align: center;
+    border: 5px solid #E1E5EA;
+    background-color: #47597E;
+    color: #fff;
+    line-height: 1.5rem;
+    
+  }
+  .feature-box h3 {
+    margin-top: 1.5rem;
+  }
+  .feature-box h3 span{
+    color: rgb(0, 153, 255);
+  }
+  
+  .icon {
+    color: rgb(0, 153, 255);
+    /* margin-bottom: 1rem; */
+  }
+  
+  .icon:hover {
+    color: rgb(9, 133, 216);
+  }
+  .b-icon{
+      padding: 35px 0;
+      background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 153, 255);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 43px -10px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 0px 0px 43px -10px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 0px 0px 43px -10px rgba(0,0,0,0.75) inset;
+  }
+
+  /* work */
+#work{
+    background-color: #E1E5EA;
+}
+
+#work .hp-work{
+    text-align: center;
+    line-height: 3rem;
+}
+#work h2 span{
+    color: rgb(9, 133, 216);
+}
+.work{
+    text-align: center;
+    /* height: 80vh; */
+    display: flex;
+    width: 80%;
+    /* justify-items: center; */
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+}
+.work img{
+    height: 200px;
+    width: 30%;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+.work-btn {
+    text-transform: capitalize;
+    width: 10%;
+    height: 7vh;
+    background-color: rgb(14, 104, 165);
+    color: #fff;
+    font-size: 16px;
+    border: 1px rgb(0, 153, 255) solid;
+    margin-top: 2rem;
+    border-radius: 5%;
+}
+.work-btn:hover{
+    background-color: rgb(0, 153, 255);
+    color: #fff;
+    border-radius: 5%;
+}
+
+.team{
+    text-align: center;
+}
+.line{
+    line-height: 3rem;
+}
+.team span{
+    color: rgb(0, 153, 255);
+}
+.t-img{
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+.card{
+    margin: 5px;
+    padding: 0;
+    background-color: #6E7C7C;
+}
+.face{
+    color: blue;
+}
+.tweet{
+    color: lightskyblue;
+}
+.you{
+    color: red;
+}
+.google{
+    color: orange;
+}
+
+
+.footer {
+    background-image: url(img/contact-bg.jpg);
+    background-size: cover;
+    height: 85vh;
+}
+.footer .bg-op {
+    background: #000000ad;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+}
+.footer  .container-fluid{
+    padding: 3% 30% 0;
+}
+.f-tital{
+    line-height: 3rem;
+}
+.f-tital span{
+    color: rgb(0, 153, 255);
+}
+
+
+.forms {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.39);
+    border: 1px #fff solid;
+    border-radius: 2%;
+}
+textarea{
+    width: 100%;
+}
+.rlFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sub{
+    display: flex;
+    justify-content: space-between;
+}
+.submit{
+    text-transform: capitalize;
+    width: 15%;
+    height: 5vh;
+    background-color: rgb(0, 153, 255);
+    color: #fff;
+    font-size: 16px;
+    border: 1px rgb(10, 82, 129) solid;
+    border-radius: 5%;
+}
+.fcon{
+    margin-left: 10px;
+}
+
+.copyr{
+    background-color: rgb(77, 76, 76);
+    color: #FAF3F3;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.copyr p{
+    margin: 20px 200px;
+}
+
+
+  
+
