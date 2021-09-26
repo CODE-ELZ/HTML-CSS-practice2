@@ -948,7 +948,7 @@ h3 {
     }
 
 }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 430px){
     
 
     td {
@@ -1283,6 +1283,9 @@ td {
         .display .p1 {
             background-color: #EDEDD0;
             text-align: justify;
+        }
+        #parall .parallaxBg img {
+            width: 480px;
         }
         }
 
