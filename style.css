@@ -1285,7 +1285,7 @@ td {
             text-align: justify;
         }
         #parall .parallaxBg img {
-            width: 480px;
+            width: 480px  !important;
         }
         }
 
