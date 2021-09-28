@@ -900,11 +900,15 @@ h3 {
 
 /* white start */
 
+#white{
+    background-color: #EDEDD0;
+}
 .body{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 5% 0;
+    padding: 20px 0;
 }
 .red{
     background-color: #f71c1c !important;
@@ -924,8 +928,8 @@ h3 {
 .containerd .card{
     position: relative;
     max-width: 300px;
-    height: 215px;
-    background: #EDEDD0;
+    height: 420px;
+    background: #252525;
     margin: 30px 50px;
     padding: 20px 15px;
     display: flex;
@@ -934,9 +938,7 @@ h3 {
     transition: 1s ease-in-out;
 }
 
-.containerd .card:hover{
-    height: 420px;
-}
+
 .containerd .card:hover .imgBx img{
     border-radius: 0;
     transition: 1s ease-in-out;
@@ -974,17 +976,10 @@ h3 {
     margin-top: -140px;
     padding: 10px 15px;
     text-align: center;
-    color: #252525;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.1s ease-in-out;
-}
-
-.containerd .card:hover .content{
+    color: #EDEDD0;
     visibility: visible;
     opacity: 1;
     margin-top: -40px;
-    transition-delay: 1s;
 }
 
 /* white end */
