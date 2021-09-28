@@ -902,6 +902,9 @@ h3 {
 
 #white{
     background-color: #EDEDD0;
+    box-shadow: 0px 0px 5px 5px #000 inset;
+-webkit-box-shadow: 0px 0px 5px 5px #000 inset;
+-moz-box-shadow: 0px 0px 5px 5px #000 inset;
 }
 .body{
     display: flex;
@@ -912,10 +915,11 @@ h3 {
 }
 .red{
     background-color: #f71c1c !important;
+    box-shadow: 0px 0px 5px 5px #252525 !important;
+-webkit-box-shadow: 0px 0px 5px 5px #252525 !important;
+-moz-box-shadow: 0px 0px 5px 5px #252525 !important;
 }
-.red:hover .content{
-    color: #EDEDD0 !important;
-}
+
 .containerd{
     position: relative;
     width:100%;
@@ -934,7 +938,9 @@ h3 {
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 5px #f71c1c;
+-webkit-box-shadow: 0px 0px 5px 5px #f71c1c;
+-moz-box-shadow: 0px 0px 5px 5px #f71c1c;
     transition: 1s ease-in-out;
 }
 
