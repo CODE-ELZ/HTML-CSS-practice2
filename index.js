@@ -39,19 +39,27 @@ setInterval(function(){
     }
 },4500);
     
-var sound = ["sound/lion.mp3","sound/glass.mp3"];
+var sound = ["sound/lion.mp3","sound/lionn.mp3","sound/glass.mp3"];
 
 
-  function roar(){
-    var tom1 = new Audio(sound[0]);
-          tom1.play();
-  }
+function roar(){
+  var tom1 = new Audio(sound[0]);
+        tom1.play();
+}
   function roars(){
     // var tom1 = new Audio("sound/lion.mp3");
     //       tom1.play();
   }
-  function glas(){
+  function roarx(){
     var tom1 = new Audio(sound[1]);
+          tom1.play();
+  }
+  function roarxs(){
+    // var tom1 = new Audio("sound/lion.mp3");
+    //       tom1.play();
+  }
+  function glas(){
+    var tom1 = new Audio(sound[2]);
           tom1.play();
   }
   function glass(){
